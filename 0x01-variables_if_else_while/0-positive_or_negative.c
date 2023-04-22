@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
 /**
  * main - Entry point
  * Description: Complete the source code in order to print whether the number
@@ -15,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	printf("%d is positive\n", n);
+		printf("%d is positive\n", n);
 	else if (n < 0)
-	printf("%d is negative\n," n);
+		printf("%d is negative\n", n);
 	else
-	printf("%d zero\n", n);
+		printf("%d zero\n", n);
 	return (0);
 }
