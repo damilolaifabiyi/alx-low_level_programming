@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- * Description: Complete the source code in order to print whether the number
- * stored in the variable n is positive or negative.
+ * main - main block
+ * Description: Get a random number and print the number
+ * postive,negative or zero
  * Return: Always 0 (Success)
  */
 int main(void)

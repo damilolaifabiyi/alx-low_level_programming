@@ -5,8 +5,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Assign a random number to the
- * variable n each time it is executed
+ * Description: a random number and print
  * positive, negative or zero
  * Return: Always 0(success)
  */
@@ -31,7 +30,7 @@ int main(void)
 		}
 		else if (last < 6)
 		{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, last);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 		}
 	}	return (0);
 }
