@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - block
  * Description: Print all single digit numbers of base ten.
