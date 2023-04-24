@@ -10,10 +10,14 @@ int main(void)
 	char letter;
 
 	for (digit = 0; digit < 10; digit++)
+	{
 		putchar((digt % 10) + '0');
+	}
 
 	for (letter = 'a'; letter <= 'f'; letter++)
+	{
 		putchar(letter);
+	}
 
 	putchar('\n');
 
