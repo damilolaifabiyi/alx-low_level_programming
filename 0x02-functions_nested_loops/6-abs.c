@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _abs - Entry point
+ * @a: character used
  * Description : create a function
  * Return: a whole numer or 0
  */

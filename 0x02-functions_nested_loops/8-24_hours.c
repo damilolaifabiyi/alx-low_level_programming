@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * jack_bauer - Entry point
+ *
  * Description : create a function
- * Return: 1 for success and  0 for fail
+ * Return: ...
  */
 
 void jack_bauer(void)

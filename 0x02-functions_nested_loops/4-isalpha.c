@@ -2,7 +2,8 @@
 
 
 /**
- * main - Entry point
+ * _isalpha - Entry point
+ * @c: character used
  * Description : create a function
  * Return: 1 for success or 0 for fail
  */

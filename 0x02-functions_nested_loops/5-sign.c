@@ -2,7 +2,8 @@
 
 
 /**
- * main - Entry point
+ * print_sign - Entry point
+ * @n: character used
  * Description : create a function
  * Return: 1 for success and  0 for fail
  */

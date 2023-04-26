@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_last_digit - Entry point
+ * @x: charater used
  * Description : create a function
  * Return: last digit
  */
