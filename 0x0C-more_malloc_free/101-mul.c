@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -71,7 +71,6 @@ void multiply(char *s1, char *s2)
 	total_l = l1 + l2;
 	ptr = _calloc(sizeof(int), total_l);
 
-	/* store our pointer address to free later */
 	temp = ptr;
 
 	for (l1--; l1 >= 0; l1--)
@@ -80,24 +79,24 @@ void multiply(char *s1, char *s2)
 		res = 0;
 		l2 = tmp;
 		for (l2--; l2 >= 0; l2--)
-		{
+	{
 			s_digit = s2[l2] - '0';
 			res += ptr[l2 + l1 + 1] + (f_digit * s_digit);
 			ptr[l1 + l2 + 1] = res % 10;
 			res /= 10;
-		}
-		if (res)
-			ptr[l1 + l2 + 1] = res % 10;
+}
+	if (res)
+		ptr[l1 + l2 + 1] = res % 10;
 	}
 
 	while (*ptr == 0)
 	{
-		ptr++;
+	ptr++;
 		total_l--;
 	}
 
 	for (i = 0; i < total_l; i++)
-		printf("%i", ptr[i]);
+	printf("%i", ptr[i]);
 	printf("\n");
 	free(temp);
 }
@@ -111,7 +110,7 @@ void multiply(char *s1, char *s2)
  *
  * @argc: number of arguments
  * @argv: arguments array
- *
+*
  * Return: 0 on success 98 on faliure
  */
 
@@ -121,7 +120,7 @@ int main(int argc, char *argv[])
 	char *n2 = argv[2];
 
 	if (argc != 3 || check_number(n1) || check_number(n2))
-		error_exit();
+	error_exit();
 
 	if (*n1 == '0' || *n2 == '0')
 	{
@@ -129,6 +128,6 @@ int main(int argc, char *argv[])
 		_putchar('\n');
 	}
 	else
-		multiply(n1, n2);
+	multiply(n1, n2);
 	return (0);
 }

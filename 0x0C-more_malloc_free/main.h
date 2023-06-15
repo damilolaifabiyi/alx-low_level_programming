@@ -41,7 +41,7 @@ int check_number(char *str)
 	{
 		if (*str < '0' || *str > '9')
 			return (1);
-		str++;
+	str++;
 	}
 	return (0);
 }
