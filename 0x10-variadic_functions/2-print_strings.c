@@ -1,4 +1,6 @@
-i#include "variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
+#include "variadic_functions.h"
 
 /**
  * print_strings - prints strings.
